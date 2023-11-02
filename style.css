@@ -1,0 +1,110 @@
+/*  
+Color Palette
+e63946
+f1faee
+a8dadc
+457b9d
+1d3557
+*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 8fr;
+}
+
+.header {
+    grid-column: 2 / 3;
+
+    background-color: #f1faee;
+}
+
+.header-icon {
+    height: 2rem;
+}
+
+.top-header {
+    display: flex;
+}
+
+.search {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+}
+
+.bottom-header {
+    display: flex;
+}
+
+.greeting {
+    display: flex;
+}
+
+.controls {
+    display: flex;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 9;
+
+    padding: 10px;
+    background-color: #e63946;
+}
+
+.dashboard {
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.dashboard-icon {
+    width: 3rem;
+    gap: 8px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item {
+    display: flex;
+    justify-items: start;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.nav-icon {
+    width: 3rem;
+    gap: 8px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-item {
+    display: flex;
+    justify-items: start;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.settings-icon {
+    width: 3rem;
+    gap: 8px;
+}
+
+.main {
+    grid-column: 2 / 3;
+
+    background-color: #a8dadc;
+}

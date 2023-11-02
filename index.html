@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Start -->
+        <div class="header">
+            <div class="top-header">
+                <div class="search">
+                    <input class="header-icon" id="search-icon" type="image" src="/assets/search.svg" alt="Search" form="site-search">
+                    <input class="search-bar" type="text" name="site-search">
+                </div>
+                <div class="profile">
+                    <img class="header-icon" id="notification" src="/assets/notification.svg" alt="Notification Icon">
+                    <img class="header-icon" id="header-user" src="/assets/user.png" alt="User Icon">
+                    <p>Jacob Silverberg</p>
+                </div>
+            </div>
+
+            <div class="bottom-header">
+                <div class="greeting">
+                    <img class="header-icon" id="header-user" src="/assets/user.png" alt="User Icon">
+                    <p>Hi there,</p>
+                    <p>Jacob Silverberg (@jsilverberg)</p>
+                </div>
+                <div class="controls">
+                    <button class="controls-button" id="controls-new">New</button>
+                    <button class="controls-button" id="controls-upload">Upload</button>
+                    <button class="controls-button" id="controls-share">Share</button>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Sidebar Start -->
+        <div class="sidebar">
+            <div class="dashboard">
+                <img class="dashboard-icon" src="/assets/dashboard.svg" alt="Dashboard Icon">
+                <p class="dashboard-text">Dashboard</p>
+            </div>
+
+            <div class="nav">
+                <div class="nav-item">
+                    <img class="nav-icon" src="/assets/home.svg" alt="Home Icon">
+                    <p class="nav-text">Home</p>
+                </div>
+                <div class="nav-item">
+                    <img class="nav-icon" src="/assets/profile.svg" alt="Profile Icon">
+                    <p class="nav-text">Profile</p>
+                </div>
+                <div class="nav-item">
+                    <img class="nav-icon" src="/assets/messages.svg" alt="Messages Icon">
+                    <p class="nav-text">Messages</p>
+                </div>
+                <div class="nav-item">
+                    <img class="nav-icon" src="/assets/history.svg" alt="History Icon">
+                    <p class="nav-text">History</p>
+                </div>
+                <div class="nav-item">
+                    <img class="nav-icon" src="/assets/tasks.svg" alt="Tasks Icon">
+                    <p class="nav-text">Tasks</p>
+                </div>
+                <div class="nav-item">
+                    <img class="nav-icon" src="/assets/communities.svg" alt="Communities Icon">
+                    <p class="nav-text">Communities</p>
+                </div>
+            </div>
+
+            <div class="settings">
+                <div class="settings-item">
+                    <img class="settings-icon" src="/assets/settings.svg" alt="Settings Icon">
+                    <p class="settings-text">Settings</p>
+                </div>
+                <div class="settings-item">
+                    <img class="settings-icon" src="/assets/support.svg" alt="Support Icon">
+                    <p class="settings-text">Support</p>
+                </div>
+                <div class="settings-item">
+                    <img class="settings-icon" src="/assets/privacy.svg" alt="Privacy Icon">
+                    <p class="settings-text">Privacy</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar End -->
+
+        <!-- Main Start -->
+        <div class="main">
+            <div class="projects">
+                <div class="projects-header">
+                    <p>Your Projects</p>
+                </div>
+                <div class="projects-cards">
+                    <div class="project-card" id="project-card-1">
+                        <h1>Super Cool Project</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor posuere ac ut consequat. Sed id semper risus in hendrerit. Posuere morbi leo urna molestie at elementum eu facilisis.</p>
+                    </div>
+                    <div class="project-card" id="project-card-2">
+                        <h1>Less Cool Project</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa enim nec dui nunc mattis enim ut tellus. Tellus in hac habitasse platea dictumst. Viverra adipiscing at in tellus integer feugiat.</p>
+                    </div>
+                    <div class="project-card" id="project-card-3">
+                        <h1>Impossible App</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo laoreet. Cras tincidunt lobortis feugiat vivamus at augue eget. Ultrices sagittis orci a scelerisque purus.</p>
+                    </div>
+                    <div class="project-card" id="project-card-4">
+                        <h1>Easy Peasy App</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Felis eget velit aliquet sagittis id consectetur purus. Eu mi bibendum neque egestas congue quisque egestas.</p>
+                    </div>
+                    <div class="project-card" id="project-card-5">
+                        <h1>Ad Blocker</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est velit egestas dui id. Ac turpis egestas integer eget aliquet nibh praesent. Habitant morbi tristique senectus et netus et malesuada fames.</p>
+                    </div>
+                    <div class="project-card" id="project-card-6">
+                        <h1>Money Maker</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra mauris in aliquam sem fringilla ut morbi. Nisl pretium fusce id velit ut. Turpis massa sed elementum tempus egestas sed sed risus pretium.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="announcements">
+                <p>Announcements</p>
+                <div class="announcements-card">
+                    <h1>Site Maintenance</h1>
+                </div>
+                <div class="announcements-card">
+                    <h1>Community Share Day</h1>
+                </div>
+                <div class="announcements-card">
+                    <h1>Updated Privacy Policy</h1>
+                </div>
+            </div>
+
+            <div class="trending">
+                <p>This is some test text</p>
+            </div>
+        </div>
+        <!-- Main End -->
+    </div>
+</body>
+</html>
