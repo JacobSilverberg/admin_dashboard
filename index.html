@@ -25,10 +25,12 @@
             </div>
 
             <div class="bottom-header">
-                <div class="greeting">
-                    <img class="header-icon" id="header-user" src="/assets/user.png" alt="User Icon">
-                    <p>Hi there,</p>
-                    <p>Jacob Silverberg (@jsilverberg)</p>
+                <div class="greeting-block">
+                    <img class="header-icon" id="greeting-icon" src="/assets/user.png" alt="User Icon">
+                    <div class="greeting-text">
+                        <p id="greet-text-hi">Hi there,</p>
+                        <p id="greet-text-user">Jacob Silverberg (@jsilverberg)</p>
+                    </div>
                 </div>
                 <div class="controls">
                     <button class="controls-button" id="controls-new">New</button>
@@ -96,7 +98,7 @@
                 <div class="projects-header">
                     <p>Your Projects</p>
                 </div>
-                <div class="projects-cards">
+                <div class="project-card-container">
                     <div class="project-card" id="project-card-1">
                         <h1>Super Cool Project</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor posuere ac ut consequat. Sed id semper risus in hendrerit. Posuere morbi leo urna molestie at elementum eu facilisis.</p>
@@ -156,48 +158,56 @@
 
             <div class="right-sidebar-main">
                 <div class="announcements">
-                    <p>Announcements</p>
-                    <div class="announcements-card">
-                        <h1>Site Maintenance</h1>
-                        <p>Donec odio leo, molestie sed orci at, tincidunt lobortis ligula. Mauris lobortis.</p>
+                    <div class="announcement-header">
+                        <p>Announcements</p>
                     </div>
-                    <div class="announcements-card">
-                        <h1>Community Share Day</h1>
-                        <p>Praesent vel vulputate turpis. Curabitur eu purus a nulla laoreet tempus.</p>
-                    </div>
-                    <div class="announcements-card">
-                        <h1>Updated Privacy Policy</h1>
-                        <p>Nam lobortis condimentum nibh non imperdiet.</p>
+                    <div class="announcements-card-container">
+                        <div class="announcements-card">
+                            <h1>Site Maintenance</h1>
+                            <p>Donec odio leo, molestie sed orci at, tincidunt lobortis ligula. Mauris lobortis.</p>
+                        </div>
+                        <hr>
+                        <div class="announcements-card">
+                            <h1>Community Share Day</h1>
+                            <p>Praesent vel vulputate turpis. Curabitur eu purus a nulla laoreet tempus.</p>
+                        </div>
+                        <hr>
+                        <div class="announcements-card">
+                            <h1>Updated Privacy Policy</h1>
+                            <p>Nam lobortis condimentum nibh non imperdiet.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="trending">
                     <p class="trending-heading">Trending</p>
-                    <div class="trending-card">
-                        <img src="/assets/bear.png" alt="Bear Icon" class="trending-icon">
-                        <div class="trending-info">
-                            <p class="trending-user-name">@tegan</p>
-                            <p class="trending-topic">World Peace Builder</p>
+                    <div class="trending-card-container">
+                        <div class="trending-card">
+                            <img src="/assets/bear.png" alt="Bear Icon" class="trending-icon">
+                            <div class="trending-info">
+                                <p class="trending-user-name">@tegan</p>
+                                <p class="trending-topic">World Peace Builder</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="trending-card">
-                        <img src="/assets/dog.png" alt="Dog Icon" class="trending-icon">
-                        <div class="trending-info">
-                            <p class="trending-user-name">@johnwest</p>
-                            <p class="trending-topic">Super Cool Project</p>
+                        <div class="trending-card">
+                            <img src="/assets/dog.png" alt="Dog Icon" class="trending-icon">
+                            <div class="trending-info">
+                                <p class="trending-user-name">@johnwest</p>
+                                <p class="trending-topic">Super Cool Project</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="trending-card">
-                        <img src="/assets/rabbit.png" alt="Rabbit Icon" class="trending-icon">
-                        <div class="trending-info">
-                            <p class="trending-user-name">@kendall</p>
-                            <p class="trending-topic">Life Changing App</p>
+                        <div class="trending-card">
+                            <img src="/assets/rabbit.png" alt="Rabbit Icon" class="trending-icon">
+                            <div class="trending-info">
+                                <p class="trending-user-name">@kendall</p>
+                                <p class="trending-topic">Life Changing App</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="trending-card">
-                        <img src="/assets/chicken.png" alt="Chicken Icon" class="trending-icon">
-                        <div class="trending-info">
-                            <p class="trending-user-name">@minkus</p>
-                            <p class="trending-topic">No Traffic Maker</p>
+                        <div class="trending-card">
+                            <img src="/assets/chicken.png" alt="Chicken Icon" class="trending-icon">
+                            <div class="trending-info">
+                                <p class="trending-user-name">@minkus</p>
+                                <p class="trending-topic">No Traffic Maker</p>
+                            </div>
                         </div>
                     </div>
                 </div>
